@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: 'MSR Interior - False Ceiling, PVC Panels, Flooring & Custom Furniture Experts',
   description: 'Transform your space with MSR Interior. We specialize in false ceilings, PVC wall panels, flooring solutions, and custom furniture for homes and offices.',
   keywords: 'false ceiling, PVC panels, flooring, custom furniture, home renovation, interior design',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({

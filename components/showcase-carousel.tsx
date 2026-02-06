@@ -115,7 +115,7 @@ export function ShowcaseCarousel() {
 
       <div className="absolute bottom-4 right-4 z-20 md:bottom-8 md:right-12 pointer-events-none mix-blend-difference text-white">
         <p className="text-sm font-medium tracking-wide md:text-base">
-          msrinterior.pk@gmail.com
+
         </p>
       </div>
 
