@@ -48,7 +48,7 @@ export function FeaturesSection() {
             Why Choose Us
           </p>
           <h2 className="font-heading text-3xl font-bold text-foreground md:text-4xl text-balance">
-            The MSR Decor Difference
+            The MSR Interior Difference
           </h2>
           <p className="text-muted-foreground leading-relaxed">
             With years of experience and hundreds of satisfied clients, we

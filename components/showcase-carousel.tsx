@@ -109,7 +109,7 @@ export function ShowcaseCarousel() {
       {/* Branding & Contact Overlay */}
       <div className="absolute top-4 left-4 z-20 md:top-8 md:left-12 pointer-events-none mix-blend-difference text-white">
         <h2 className="text-xl font-bold tracking-tighter uppercase md:text-2xl font-heading">
-          MSR Interior
+
         </h2>
       </div>
 
