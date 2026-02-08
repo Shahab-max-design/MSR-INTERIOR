@@ -1,12 +1,13 @@
 import Link from "next/link"
 import { ArrowRight, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { FadeIn } from "@/components/ui/animation-wrapper"
 
 export function CTASection() {
   return (
     <section className="bg-primary py-20 md:py-28">
       <div className="container mx-auto px-4">
-        <div className="mx-auto max-w-2xl text-center space-y-6">
+        <FadeIn className="mx-auto max-w-2xl text-center space-y-6">
           <h2 className="font-heading text-3xl font-bold text-primary-foreground md:text-4xl text-balance">
             Ready to transform your space?
           </h2>
@@ -42,7 +43,7 @@ export function CTASection() {
               </a>
             </Button>
           </div>
-        </div>
+        </FadeIn>
       </div>
     </section>
   )

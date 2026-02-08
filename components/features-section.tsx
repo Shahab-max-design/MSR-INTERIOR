@@ -1,4 +1,5 @@
 import { Shield, Clock, Palette, BadgeCheck, Truck, Headphones } from "lucide-react"
+import { FadeIn, StaggerContainer } from "@/components/ui/animation-wrapper"
 
 const features = [
   {
@@ -43,7 +44,7 @@ export function FeaturesSection() {
   return (
     <section className="bg-secondary py-20 md:py-28">
       <div className="container mx-auto px-4">
-        <div className="mx-auto max-w-2xl text-center space-y-3">
+        <FadeIn className="mx-auto max-w-2xl text-center space-y-3">
           <p className="text-sm font-medium uppercase tracking-widest text-accent">
             Why Choose Us
           </p>
@@ -54,11 +55,11 @@ export function FeaturesSection() {
             With years of experience and hundreds of satisfied clients, we
             deliver results that exceed expectations.
           </p>
-        </div>
+        </FadeIn>
 
-        <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <StaggerContainer className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
-            <div
+            <FadeIn
               key={feature.title}
               className="flex flex-col items-start gap-4 rounded-lg bg-card p-6 border border-border"
             >
@@ -73,9 +74,9 @@ export function FeaturesSection() {
                   {feature.description}
                 </p>
               </div>
-            </div>
+            </FadeIn>
           ))}
-        </div>
+        </StaggerContainer>
       </div>
     </section>
   )

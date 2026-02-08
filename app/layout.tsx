@@ -5,6 +5,7 @@ import { Poppins, Inter } from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+import { Preloader } from "@/components/preloader"
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${inter.variable} font-sans antialiased`}>
+        <Preloader />
         <Navbar />
         <main className="min-h-screen">
           {children}
@@ -43,3 +45,4 @@ export default function RootLayout({
     </html>
   )
 }
+
